@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Outfit:wght@300&family=Parisienne&family=Sarala:wght@700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: auto;
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(7, 0, 6, 0.877)), url('../images/black.jpg');
+}
+
+
+/* HEADER - TOP CONTAINER 1- HEADER */
+#list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.5em;
+    border-bottom: 0.5px solid #ecd1ba;
+    position: fixed;
+    width: 100%;
+    margin: 0%;
+    text-transform: uppercase;
+    padding: 1.2em;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(10, 0, 9, 0.877));
+    text-decoration: none;
+}
+
+/* MAIN BANNER */
+#banner {
+    width: 119em;
+}
+
+
+/* LINHA PONTILHADA OK */
+hr {
+    width: 15%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgba(168, 144, 173, 0.747);
+    border-width: 8px;
+}
+
+/* ARTICLE - TITLE ABOUT */
+.title {
+    text-align: center;
+    color: rgb(192, 1, 240);
+    font-size: 1.5em;
+}
+
+/* IMAGE ABOUT OK */
+.image-profile {
+    border-radius: 100%;
+    border: solid 5px rgba(36, 1, 53, 0.25);
+    box-shadow: 4px 5px 4px rgba(26, 1, 37, 0.61);
+    width: 10em;
+    display: flex;
+    width: 200px;
+    margin: auto;
+}
+
+/* TEXT ABOUT OK */
+#text-profile {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 2.0em;
+    width: 70em;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+
+
+/* IMAGE SKILLS OK */
+.img-skill-1 {
+    width: 30%;
+    background: linear-gradient(rgb(43, 1, 38), rgba(21, 1, 37, 0.877));
+    border-radius: 3em;
+    margin-bottom: 2em;
+    margin: 3em 3em;
+}
+
+/* SKILLS OK */
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 5em;
+    flex-direction: row;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 2.0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* SKILLS ROW 1 - Develop what you need */
+.skill-row-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.img-skill-row-1 {
+    width: 30em;
+    background: linear-gradient(rgb(43, 1, 38), rgba(21, 1, 37, 0.877));
+    border-radius: 3em;
+    margin: 2em;
+}
+
+.skill-row-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 30em;
+    font-size: 1.2em;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* SKILLS ROW 2 - Design what you want.O */
+
+.skill-row-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.img-skill-row-2 {
+    width: 30em;
+    background: linear-gradient(rgb(43, 1, 38), rgba(21, 1, 37, 0.877));
+    border-radius: 3em;
+    margin: 2em;
+}
+
+/* H2 */
+h2 {
+    color: rgb(192, 1, 240);
+    font-family: 'Outfit', sans-serif;
+    font-size:1,5EM;
+}
+
+/* FOOTER CONTACT-ME */
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 0em 20em;
+    text-align: center;
+    background: linear-gradient(rgb(43, 1, 38), rgba(21, 1, 37, 0.877));
+    margin-top: 2em;
+}
+
+.btn {
+    background-color: rgb(192, 1, 240);
+    border: 2px solid #080808;
+    border-radius: 0.5em;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0.8em 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 101;
+}
+
+.contact-me {
+    padding-bottom: 1em;
+}
+
+
+/* FOOTER CONTACT-ME */
+.bottom-container {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.8em;
+    margin: none;
+}
+
+.footer-link {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Mobile */
+@media(max-width: 450px) {
+
+    #list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #banner {
+        width: auto;
+    }
+
+
+}
